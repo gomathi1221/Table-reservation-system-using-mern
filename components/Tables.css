@@ -1,0 +1,67 @@
+/* Tables.css */
+
+.tables-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Light background for contrast */
+    max-height: 100vh; /* Set a maximum height for the container */
+    overflow-y: auto; /* Allow vertical scrolling */
+}
+
+.tables-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em; /* Larger font size for the title */
+    color: #333; /* Darker color for better readability */
+}
+
+.table-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the grid items */
+    gap: 20px; /* Space between the table cards */
+}
+
+.table-card {
+    margin: 10px;
+    position: relative;
+    border: 1px solid #ddd; /* Light border for the card */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Prevent overflow of content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center text inside the card */
+    width: 220px; /* Fixed width for uniformity */
+    background-color: #fff; /* White background for the card */
+    transition: transform 0.3s; /* Smooth scaling effect on hover */
+}
+
+.table-card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+.table-image {
+    width: 100%; /* Full width of the card */
+    height: 150px; /* Fixed height for images */
+    object-fit: cover; /* Cover the area without distortion */
+}
+
+.table-heading {
+    font-size: 1.5em; /* Larger font size for table name */
+    margin: 10px 0; /* Margin for spacing */
+    color: #333; /* Dark color for text */
+}
+
+.book-now-button {
+    margin: 10px 0; /* Margin for spacing */
+    padding: 10px 20px; /* Padding for button */
+    background-color: #28a745; /* Green background for the button */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.book-now-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}

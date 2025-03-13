@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f9f9f9;
+}
+
+.menu-container {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+.circular-menu {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+/* Style for Chef Doll */
+.chef-doll {
+    width: 120px; /* Increase the size */
+    height: 120px; /* Keep aspect ratio */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+
+.category-button {
+    width: 90px;
+    height: 90px;
+    background-color: #ff69b4;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 0.9em;
+    transition: 0.3s;
+}
+
+.category-button:hover {
+    background-color:plum;
+    color: white;
+}
+
+.emoji {
+    font-size: 1.5em;
+}
+
+.category-name {
+    font-size: 0.8em;
+}
+
+
+
+

@@ -1,0 +1,61 @@
+/* Payment.css */
+
+.payment-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.payment-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em; /* Larger font size for the title */
+    color: #333; /* Darker color for better readability */
+}
+
+.payment-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items */
+    background-color: #fff; /* White background for the details section */
+    border: 1px solid #ddd; /* Light border for the card */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the card */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 300px; /* Fixed width for uniformity */
+}
+
+.table-name {
+    font-size: 1.5em; /* Larger font size for table name */
+    margin: 10px 0; /* Margin for spacing */
+    color: #333; /* Dark color for text */
+}
+
+.confirm-payment-button {
+    margin-top: 20px; /* Margin for spacing */
+    padding: 10px 20px; /* Padding for button */
+    background-color: #28a745; /* Green background for the button */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.confirm-payment-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.payment-details p {
+    margin: 5px 0; /* Margin for spacing between paragraphs */
+    color: #555; /* Slightly lighter color for text */
+}
+
+select {
+    margin-top: 10px; /* Margin for spacing */
+    padding: 10px; /* Padding for the select box */
+    border: 1px solid #ddd; /* Light border for the select box */
+    border-radius: 5px; /* Rounded corners */
+    width: 100%; /* Full width of the container */
+    max-width: 200px; /* Maximum width for the select box */
+}
